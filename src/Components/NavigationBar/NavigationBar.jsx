@@ -2,11 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavigationBar.css'
 
-function NavigationBar() {
-  if (window.location.pathname === '/') {
-    return null
-  }
-  else {
+function NavigationBar() {{
     return (
       <div className="navigationBar">
         <li><Link to={'/sell'} >Sell ID</Link></li>

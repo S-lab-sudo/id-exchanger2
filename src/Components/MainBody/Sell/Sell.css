@@ -1,0 +1,41 @@
+.idLevel,.sellNotice{
+    display: grid;
+    margin-bottom: 5px;
+}
+.idTag>input,.idPassword>input,.emailAddress>input,.diamondsAvailable>input,.sellingPrice>input,.phoneNumber>input,.idLevel>input{
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    background-color: #00000040;
+    border-radius: 5px;
+}
+.fileInput{
+    width: 100%;
+}
+.petsImagesUpload,.charactersImagesUpload,.gunsImagesUpload,.emoteImagesUpload{
+    margin-bottom: 7.5px;
+}
+.sellId>button{
+    font-size: 17.5px;
+    float: right;
+    clear: both;
+}
+.sellId{
+    overflow: hidden;
+}
+.sellID:disabled{
+    background-color: #00000040;
+}
+.emotesVideoUpload{
+    padding: 15px;
+    background: #ffffff40;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.emotesVideoUpload>input{
+    display: none;
+}

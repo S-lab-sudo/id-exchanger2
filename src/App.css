@@ -1,0 +1,35 @@
+.App,body,html,#root {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+}
+.App,.App2{
+  position: relative;
+  display: grid;
+}
+.App{
+  grid-template-rows: 7% 85% 8%;
+}
+.App2{
+  grid-template-rows: 7% 80%;
+  margin-bottom: 10px;
+}
+
+button,a,input{
+  all:unset;
+}
+
+input::placeholder{
+  color: #ccc;
+}

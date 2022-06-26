@@ -1,0 +1,28 @@
+.perCarts{
+    display: flex;
+    padding: 10px;
+    background: #00000050;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.idNameandDateandStatusHolder{   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.boughtDate{
+    font-size: 12.5px;
+}
+.idName{
+    font-weight: 600;
+}
+.status>button{
+    padding: 5px 10px;
+    background: #0F9D58;
+    border-radius: 5px;
+    font-size: 17.5px;
+}
+.cartPrice{
+    font-size: 15px;
+}

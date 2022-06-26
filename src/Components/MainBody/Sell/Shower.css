@@ -1,0 +1,12 @@
+.imageViewHolder {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imageView{
+    width: 40%;
+}
+.imageView>img{
+    width: 100%;
+}

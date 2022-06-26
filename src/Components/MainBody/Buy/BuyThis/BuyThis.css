@@ -1,0 +1,27 @@
+.selectedId{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.sendMoneyImage{
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.sendMoneyImage>img{
+    width: 100%;
+    height: auto;
+}
+.buyButton{
+    padding: 10px 20px;
+    clear: both;
+    float: right;
+    background-color: rgb(5 222 52/80%);
+    border-radius: 10px;
+}
+.buyButtonHolder{
+    overflow: hidden;
+}
+.buyButton:disabled{
+    background-color: #00000040;
+}   
